@@ -13,11 +13,11 @@ const routes = express.Router();
 const upload = multer(uploadConfig);
 
 routes.get('/', (req, res) => {
-    return res.json("Oi API");
+    return res.json("Oi API do AirCnC");
 });
 
-routes.get('/users', SessionController.index);
-routes.post('/users', SessionController.store);
+routes.get('/sessions', SessionController.index);
+routes.post('/sessions', SessionController.store);
 
 routes.get('/spots', SpotController.index);
 routes.post('/spots', upload.single('thumbnail'), SpotController.store);

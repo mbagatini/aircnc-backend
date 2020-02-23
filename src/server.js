@@ -1,5 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const cors = require('cors');
 const routes = require('./routes');
 
 const app = express();
@@ -9,6 +10,9 @@ mongoose.connect('mongodb+srv://cluster:cluster@mycluster-zpv4l.mongodb.net/airb
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
+
+// Controla quem pode acessar a API
+app.use(cors());
 
 app.use(express.json());
 

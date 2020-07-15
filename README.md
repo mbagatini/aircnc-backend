@@ -1,5 +1,6 @@
 <h1 align="center">
     <img alt="Aircnc" title="#delicinha" src="https://github.com/Rocketseat/semana-omnistack-9/raw/master/.github/logo.png" width="250px" />
+    <h2>BACKEND</h2>
 </h1>  
 
 ## :rocket: Tecnologias
@@ -7,9 +8,9 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Node.js](https://nodejs.org/en/)
-- [React](https://reactjs.org)
-- [React Native](https://facebook.github.io/react-native/)
-- [Expo](https://expo.io/)
+- <s>React</s>
+- <s>React Native</s>
+- <s>Expo</s>
 
 ## 💻 Projeto
 
